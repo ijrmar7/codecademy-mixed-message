@@ -16,16 +16,16 @@ const mixedMessage = {
             console.log("Hello!");
         }
         for(obj in this.messages) {
-            const randNum = this.messages[obj].length;
+            const randNum = rand(this.messages[obj].length);
             switch(obj) {
                 case 'jokes':
-                    mixedArr.push("Your today's joke is: " + this.messages[obj][rand(randNum)]);
+                    mixedArr.push("Your today's joke is: " + this.messages[obj][randNum]);
                     break;
                 case 'trivias':
-                    mixedArr.push("Your today's trivia is: " + this.messages[obj][rand(randNum)]);
+                    mixedArr.push("Your today's trivia is: " + this.messages[obj][randNum]);
                     break;
                 case 'advices':
-                    mixedArr.push("Your today's advice is: " + this.messages[obj][rand(randNum)]);
+                    mixedArr.push("Your today's advice is: " + this.messages[obj][randNum]);
                     break;
             }
         }
