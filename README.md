@@ -8,7 +8,7 @@ by Jonash Marcelino @ijrmar7
 ## Features:
 + Generate today's joke, trivia and advice.
 + 30 total of messages. 10 from jokes, trivias and advices.
-+ You can enter your names as argv.
++ You can enter your name as argv.
 
 ## How to use?
 ```console
